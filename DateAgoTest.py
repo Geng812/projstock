@@ -8,7 +8,7 @@ def Get_nday_ageo(date, n)
   t = time.strptime(date, "%Y-%m-%d")
   y, m, d = t[0:3]
   
-  while n >= 0:
+  while n > 0:
   
     D = str(datetime.datetime(y, m, d) - datetime.time
     
